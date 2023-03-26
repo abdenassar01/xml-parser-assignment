@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone="no"?>
+
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+    <xs:element name = "Personnes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Personne" maxOccurs="20" >
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nom" type="xs:string" />
+                            <xs:element name="prenom" type="xs:string" />
+                            <xs:element name="adresse" type="xs:string" />
+                            <xs:element name="mail" type="xs:string" maxOccurs="5" />
+                            <xs:element name="telephone" type="xs:string" maxOccurs="5" />
+                        </xs:sequence>
+                        <xs:attribute name="sexe">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Homme" />
+                                    <xs:enumeration value="Femme" />
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence> 
+        </xs:complexType>
+    </xs:element> 
+</xs:schema> 

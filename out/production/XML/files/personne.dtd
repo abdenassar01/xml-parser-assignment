@@ -1,0 +1,9 @@
+<!ELEMENT Personnes (Personne*)>
+<!ELEMENT sexe (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+
+<!ELEMENT Personne (nom, prenom, sexe, adresse, telephone*, mail*)>
