@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- <!DOCTYPE Personnes PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "./files.dtd"> --><Personnes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="personne.xsd">
-    
+    <?xml-stylesheet href="./personnes.xml" type="text/xsl"?>
     <Personne sexe="Femme">
         <nom>AMIMI</nom>
         <prenom>ABDENASSAR</prenom>
@@ -8,19 +8,13 @@
         <telephone>696788244</telephone>
     </Personne>
 
-    <Personne sexe="Homme">
-        <nom>AMIMI</nom>
-        <prenom>ABDENASSAR</prenom>
-        <adresse>Taounate</adresse>
-        <mail>abdenassaramimi@gmail.com</mail>
-        <telephone>696788244</telephone>
-    </Personne> 
-<Personne>
-    <nom>nassar</nom>
-    <prenom>kGS</prenom>
-    <adresse>GDJAFJG</adresse>
-    <mail>HKAGDK</mail>
-    <telephone>JDKHA</telephone>
-</Personne>
-    <Personne><nom>nassar</nom><prenom>kGS</prenom><adresse>GDJAFJG</adresse><mail>HKAGDK</mail><telephone>JDKHA</telephone></Personne><Personne><nom>nassar</nom><prenom>kGS</prenom><adresse>GDJAFJG</adresse><mail>HKAGDK</mail><telephone>JDKHA</telephone></Personne><Personne><nom>nassar</nom><prenom>kGS</prenom><adresse>GDJAFJG</adresse><mail>HKAGDK</mail><telephone>JDKHA</telephone></Personne><Personne><nom>nassar</nom><prenom>kGS</prenom><adresse>GDJAFJG</adresse><mail>HKAGDK</mail><telephone>JDKHA</telephone></Personne>
-</Personnes>
+    
+    <Personne sexe="Femme">
+        <nom>abde</nom>
+        <prenom>nassar</prenom>
+        <adresse>martil</adresse>
+        <mail>nassar@mail.com</mail>
+        <telephone>0267152276</telephone>
+    </Personne>
+    
+<Personne sexe="Homme"><nom>LPW</nom><prenom>LPW</prenom><adresse>ENS TETOUAN</adresse><mail>ens@mail.edu</mail><telephone>0682661262</telephone></Personne></Personnes>

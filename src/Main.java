@@ -7,7 +7,7 @@ public class Main {
 
         AppFrame application = new AppFrame();
         application.setTitle("XML Parser App");
-        application.setSize(500, 420);
+        application.setSize(800, 800);
         application.setVisible(true);
         application.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
     }
